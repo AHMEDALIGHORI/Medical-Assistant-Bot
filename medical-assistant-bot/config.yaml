@@ -1,0 +1,62 @@
+# Medical Assistant Bot (Domain D2)
+# RAG + BERT intent + Ollama Hermes
+
+project:
+  name: medical-assistant-bot
+  domain: D
+  problem_id: D2
+  problem_title: "Medical Assistant Bot"
+
+paths:
+  data_raw: data/raw
+  data_sample: data/sample
+  data_datafile: Datafile
+  data_processed: data/processed
+  chroma: data/processed/chroma
+  models: models
+  intent_model: models/intent_classifier
+  logs: logs
+
+ollama:
+  base_url: "http://localhost:11434"
+  models_dir: "F:/Ollama/models"
+  chat_model: "hermes3"
+  fast_chat_model: "qwen2.5:3b"
+  embed_model: "nomic-embed-text"
+  timeout_seconds: 600
+  chat_options:
+    num_ctx: 2048
+    num_predict: 256
+    temperature: 0.3
+  max_context_chars: 6000
+
+ingest:
+  max_chatbot_rows: 20000
+  fast_max_chatbot_rows: 5000
+  tabular_rows_per_chunk: 25
+
+rag:
+  top_k: 4
+  min_similarity: 0.35
+  chunk_size: 500
+  chunk_overlap: 80
+  collection_name: medical_knowledge
+  embed_provider: sentence-transformers
+  embed_model: all-MiniLM-L6-v2
+
+intent:
+  model_name: distilbert-base-uncased
+  max_length: 128
+  train_split: 0.8
+  epochs: 3
+  batch_size: 16
+  learning_rate: 2.0e-5
+  labels:
+    - general_info
+    - symptoms
+    - medication
+    - prevention
+    - emergency
+    - unknown
+
+seed: 42

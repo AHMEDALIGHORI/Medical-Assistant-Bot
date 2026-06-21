@@ -1,0 +1,31 @@
+question,answer,intent
+What is hypertension?,Hypertension is high blood pressure. It often has no symptoms but increases risk of heart disease and stroke. Regular checkups and lifestyle changes help manage it.,general_info
+What are common symptoms of the flu?,"Common flu symptoms include fever, cough, sore throat, body aches, fatigue, and headache. Rest and fluids are usually recommended.",symptoms
+How much water should I drink daily?,Most adults benefit from about 2 liters (8 glasses) of water per day. Needs vary with activity level climate and health conditions.,general_info
+What is paracetamol used for?,Paracetamol (acetaminophen) is commonly used to reduce fever and relieve mild to moderate pain. Always follow dosage instructions on the label.,medication
+How can I prevent the common cold?,Wash hands frequently avoid close contact with sick people and maintain good sleep and nutrition to support immune health.,prevention
+When should I see a doctor for a fever?,Seek medical care if fever is above 39C (102F) lasts more than 3 days or is accompanied by severe headache stiff neck or difficulty breathing.,symptoms
+What is diabetes?,Diabetes is a condition where blood sugar levels are too high. Type 1 and Type 2 are the main forms. Management includes diet exercise and sometimes medication.,general_info
+What are signs of dehydration?,"Signs include thirst dry mouth dark urine dizziness and fatigue. Drink fluids and seek care if symptoms are severe or persistent.",symptoms
+What is ibuprofen used for?,Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used for pain fever and inflammation. Take with food if it upsets your stomach.,medication
+How do vaccines work?,Vaccines train the immune system to recognize and fight specific pathogens without causing the full disease.,prevention
+What is a healthy resting heart rate?,For most adults a resting heart rate of 60-100 beats per minute is considered normal. Athletes may have lower rates.,general_info
+What are symptoms of food poisoning?,"Nausea vomiting diarrhea stomach cramps and fever may occur within hours of eating contaminated food. Stay hydrated and seek care if symptoms are severe.",symptoms
+Can I take aspirin for headache?,Aspirin can relieve headache and pain in many adults but is not suitable for everyone especially children or those with bleeding risks. Consult a pharmacist or doctor.,medication
+How can I improve sleep quality?,Keep a regular schedule limit screens before bed avoid caffeine late in the day and keep the bedroom cool and dark.,prevention
+What is anemia?,Anemia is a condition with too few red blood cells or low hemoglobin causing fatigue weakness and pale skin. Causes include iron deficiency and chronic disease.,general_info
+What are warning signs of a heart attack?,"Chest pain or pressure pain in arm jaw or back shortness of breath nausea and cold sweats. Call emergency services immediately.",emergency
+What is amoxicillin?,Amoxicillin is an antibiotic used for bacterial infections such as ear infections and strep throat. It requires a prescription and must be taken as directed.,medication
+How do I manage stress?,Exercise mindfulness adequate sleep and talking to someone you trust can help. Persistent stress affecting daily life may need professional support.,prevention
+What is asthma?,Asthma is a chronic condition where airways narrow and swell causing wheezing coughing and shortness of breath. Triggers vary by person.,general_info
+What are symptoms of a urinary tract infection?,"Burning during urination frequent urge to urinate cloudy or strong-smelling urine and pelvic pain. See a doctor for diagnosis and treatment.",symptoms
+What is metformin used for?,Metformin is a first-line medication for Type 2 diabetes. It helps lower blood sugar and is often combined with diet and exercise.,medication
+How can I prevent mosquito-borne diseases?,Use repellent wear long sleeves eliminate standing water and use bed nets in high-risk areas.,prevention
+What is cholesterol?,Cholesterol is a waxy substance in blood. High LDL (bad) cholesterol increases heart disease risk. Diet exercise and medication can help manage levels.,general_info
+I cannot breathe and have severe chest pain what should I do?,This may be a medical emergency. Call your local emergency number (e.g. 112 or 911) immediately and do not wait.,emergency
+What is omeprazole?,Omeprazole reduces stomach acid and is used for acid reflux and ulcers. Take as prescribed and report persistent symptoms to your doctor.,medication
+What are benefits of regular exercise?,Regular exercise improves heart health mood weight management and bone strength. Aim for at least 150 minutes of moderate activity per week.,prevention
+What is migraine?,Migraine is a neurological condition with severe headache often with nausea and sensitivity to light or sound. Triggers and treatments vary.,general_info
+What are symptoms of appendicitis?,"Pain starting near the navel moving to lower right abdomen fever nausea and loss of appetite. Seek urgent medical evaluation.",symptoms
+What is vitamin D for?,Vitamin D supports bone health and immune function. Sources include sunlight fortified foods and supplements when levels are low.,general_info
+Someone is unconscious and not responding what do I do?,Call emergency services immediately. Check breathing and begin CPR if trained and no breathing is detected.,emergency

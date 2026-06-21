@@ -1,0 +1,18 @@
+{
+  "label2id": {
+    "general_info": 0,
+    "symptoms": 1,
+    "medication": 2,
+    "prevention": 3,
+    "emergency": 4,
+    "unknown": 5
+  },
+  "id2label": {
+    "0": "general_info",
+    "1": "symptoms",
+    "2": "medication",
+    "3": "prevention",
+    "4": "emergency",
+    "5": "unknown"
+  }
+}

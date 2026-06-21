@@ -1,0 +1,43 @@
+﻿# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+dist/
+build/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*credentials*
+*.pem
+
+# Logs
+logs/
+*.log
+
+# Vector DB / Chroma (regenerate with build_index.py)
+medical-assistant-bot/data/processed/chroma/
+**/chroma.sqlite3
+
+# Large model weights (regenerate with train_intent_classifier.py)
+*.safetensors
+*.gguf
+*.bin
+!**/header.bin
+
+# Large archives
+*.zip
+
+# IDE / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Exceeds GitHub 100MB limit
+medical-assistant-bot/Datafile/ai-medical-chatbot.csv
