@@ -293,3 +293,14 @@ The default `hermes3` model can take 2–5 minutes to load on first query. Switc
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=4000&pause=1500&color=64748B&center=true&vCenter=true&width=500&lines=Always+consult+a+healthcare+professional.;Not+a+substitute+for+medical+advice." alt="Disclaimer typing" />
 
 </div>
+
+
+## Suggested GitHub Topics
+
+~~~text
+python machine-learning ai
+~~~
+
+## License
+
+This project is available under the MIT License. See [LICENSE](LICENSE).
